@@ -1,3 +1,3 @@
-# zipper-extra
+# hashmap-throw
 
-Zipper utils that weren't in [comonad-extras](https://hackage.haskell.org/package/comonad-extras)
+`MonadThrow` variant of `Data.HashMap.lookup`.
