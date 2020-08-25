@@ -14,7 +14,7 @@ import Data.Typeable
 import Data.Hashable
 import Data.HashMap as HM
 
-data KeyNotFoundException a = KeyNotFoundException a
+newtype KeyNotFoundException a = KeyNotFoundException a
   deriving (Eq, Ord, Show)
 
 instance (Typeable a, Show a) => Exception (KeyNotFoundException a)
