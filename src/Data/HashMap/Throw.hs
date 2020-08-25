@@ -7,6 +7,7 @@ lookupOrThrow function for HashMap.
 -}
 module Data.HashMap.Throw (
   lookupOrThrow
+, KeyNotFoundException(..)
 ) where
 
 import Control.Monad.Catch
