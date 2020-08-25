@@ -1,0 +1,23 @@
+name:                hashmap-throw
+version:             0.1.0.0
+license:             MIT
+category:            Data structures
+author:              "Daniel Firth"
+maintainer:          "dan.firth@homotopic.tech"
+copyright:           "2020 Daniel Firth"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+synopsis:            Throw behaviour for hashmap lookup.
+description:         Adds a lookupOrThrow function that throws if the key is not found
+
+dependencies:
+- base >= 4.7 && < 5
+- exceptions
+- hashable
+- hashmap
+
+library:
+  source-dirs: src
