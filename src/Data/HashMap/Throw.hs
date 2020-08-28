@@ -5,6 +5,7 @@
 
 lookupOrThrow function for HashMap.
 -}
+{-# OPTIONS_GHC -fno-warn-deprecations #-}
 module Data.HashMap.Throw (
   lookupOrThrow
 , KeyNotFoundException(..)
